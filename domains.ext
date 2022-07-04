@@ -1,0 +1,14 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = findash.rawv.io
+DNS.2 = ticktock.rawv.io
+DNS.3 = frontend.rawv.io
+DNS.4 = cdn.rawv.io
+DNS.5 = backdoor.rawv.io
+DNS.6 = compiled.rawv.io
+DNS.7 = backend.rawv.io
+DNS.8 = karyalaya.rawv.io
+DNS.9 = notebooks.rawv.io
